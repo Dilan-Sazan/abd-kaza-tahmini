@@ -1,7 +1,9 @@
-﻿data/raw/US_Accidents_March23.csv
+data/raw/US_Accidents_March23.csv
 data/processed/
 .venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 Thumbs.db
+notebooks/00_referans_olustur.ipynb
+notebooks/99_kesif_denemeler.ipynb

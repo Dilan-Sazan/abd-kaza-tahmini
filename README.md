@@ -27,11 +27,13 @@ Veri dengesizdir; metrik secimi bu nedenle macro-F1'dir.
 
 1. Ana veriyi Kaggle'dan indirip data/raw/ klasorune koyun
 2. pip install -r requirements.txt
-3. Notebooklari numara sirasiyla calistirin
+3. Notebooklari numara sirasiyla calistirin (01 -> 02 -> 03)
+
+Ilce nufus / kentsel-kirsal referans tablosu (`data/raw/county_referans_kendi.csv`)
+depoda hazir bulunmaktadir; Census, Gazetteer ve NCHS kaynaklarindan uretilmistir.
 
 ## Notebooklar
 
-- 00_referans_olustur.ipynb - Dis veri kaynaklarini ilce bazinda birlestirir
 - 01_veri_hazirlama.ipynb - Ana veriyi temizler ve zenginlestirir
 - 02_eda.ipynb - Kesifsel veri analizi
 - 03_model.ipynb - Modelleme
